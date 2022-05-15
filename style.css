@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+
+.gracey-wallpaper {
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+}
+
+.navbar {
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+
+li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+li:hover {
+    background-color: rgb(157, 255, 0);
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.footer {
+    border: 1px solid rgb(0, 255, 42);
+    text-align: center;
+}
