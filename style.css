@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
+    text-align: center;
 }
 
 body {
@@ -14,3 +15,64 @@ body {
     flex-direction: column;
 }
 
+.navbar {
+    background-color: rgb(212, 234, 253);
+}
+
+.gracey-wallpaper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -75.865px 0 0 -75.865px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(212, 234, 253);
+}
+
+.fa.fa-facebook,
+.fa.fa-instagram {
+    font-size: 1em;
+    padding: 5px 10px 0 10px;
+}
+
+#copyright {
+    font-size: .75em;
+}
+
+@media screen and (max-width: 374px) {
+    .gracey-wallpaper {
+        color: rgb(255, 255, 255);
+    }
+
+    li a {
+        display: block;
+        color: rgb(56, 56, 56);
+        text-decoration: none;
+        padding: 5px 3px;
+        font-size: .75em;
+    }
+}
