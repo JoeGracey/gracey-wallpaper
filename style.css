@@ -3,19 +3,22 @@
 }
 
 body {
+    background-image: url("images/wallpaper-01.jpg");
     margin: 0;
     padding-top: 52px;
 }
 
-.gracey-wallpaper {
-    border: 1px solid rgb(255, 0, 0);
+.container {
+    position: relative;
     text-align: center;
 }
 
+.gracey-wallpaper {
+    color: rgb(255, 0, 0);
+}
+
 .navbar {
-    border: 1px solid black;
-    text-align: center;
-    background-color: aqua;
+    background-color: #d6d6d6;
     width: 100%;
     position: fixed;
     top: 0;
@@ -35,7 +38,7 @@ li {
 }
 
 li:hover {
-    background-color: rgb(157, 255, 0);
+    background-color: #E1F4F3;
 }
 
 li a {
@@ -45,9 +48,18 @@ li a {
 }
 
 .footer {
-    border: 1px solid rgb(0, 255, 42);
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #d6d6d6;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
