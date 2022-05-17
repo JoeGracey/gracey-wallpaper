@@ -4,10 +4,11 @@
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
+    
 }
 
 body {
-    background-image: url("images/wallpaper-11.jpg");
+    background-image: url("images/wallpaper-15.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -16,14 +17,15 @@ body {
 }
 
 .navbar {
-    background-color: rgb(212, 234, 253);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .gracey-wallpaper {
+    background-color: rgba(0, 0, 0, 0.25);
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -75.865px 0 0 -75.865px;
+    margin: -94.47px 0 0 -94.47px;
 }
 
 ul {
@@ -37,20 +39,26 @@ li {
 
 li a {
     display: block;
-    color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 14px 10px;
 }
 
 a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.25);
 }
+
+.gracey {
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgb(212, 234, 253);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .fa.fa-facebook,
@@ -61,16 +69,18 @@ a:hover {
 
 #copyright {
     font-size: .75em;
+    color: white;
 }
 
 @media screen and (max-width: 374px) {
     .gracey-wallpaper {
-        color: rgb(255, 255, 255);
+        color: white;
+        
     }
 
     li a {
         display: block;
-        color: rgb(56, 56, 56);
+        color: rgb(255, 255, 255);
         text-decoration: none;
         padding: 5px 3px;
         font-size: .75em;
