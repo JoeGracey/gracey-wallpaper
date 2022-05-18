@@ -4,7 +4,7 @@
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
-    
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body {
@@ -17,15 +17,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-.gracey-wallpaper {
-    background-color: rgba(0, 0, 0, 0.25);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -94.47px 0 0 -94.47px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -45,7 +37,16 @@ li a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gracey-wallpaper {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -142.24px 0 0 -142.24px;
+    padding: 0 10px 10px 10px;
 }
 
 .gracey {
@@ -53,36 +54,136 @@ a:hover {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-
+/*********** footer ***********/
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.fa.fa-facebook,
-.fa.fa-instagram {
-    font-size: 1em;
-    padding: 5px 10px 0 10px;
+.facebook,
+.instagram {
+    display: inline;
 }
 
 #copyright {
     font-size: .75em;
     color: white;
+    display: inline;
 }
 
-@media screen and (max-width: 374px) {
-    .gracey-wallpaper {
-        color: white;
-        
-    }
+/************ media queries ************/
 
+/*************** 280px ***************/
+@media screen and (min-width: 280px) {
     li a {
-        display: block;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        padding: 5px 3px;
-        font-size: .75em;
+        padding: 7px 5px;
+        font-size: .7em;
+        color: rgb(255, 0, 255);
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.4em;
+        margin: -143.00px 0 0 -143.00px;
+    }
+
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
     }
 }
+
+/*************** 320px ***************/
+@media screen and (min-width: 320px) {
+    li a {
+        padding: 7px 5px;
+        font-size: 1em;
+        color: rgb(0, 255, 200);
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.25em;
+    }
+}
+
+/*************** 375px ***************/
+@media screen and (min-width: 375px) {
+    li a {
+        padding: 7px 5px;
+        font-size: 1em;
+        color: rgb(255, 136, 0);
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.25em;
+    }
+}
+
+/*************** 425px ***************/
+@media screen and (min-width: 425px) {
+    li a {
+        padding: 7px 15px;
+        font-size: 1.25em;
+        color: rgb(0, 97, 0);
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.50em;
+    }
+}
+
+/*************** 768px ***************/
+@media screen and (min-width: 768px) {
+    li a {
+        padding: 7px 20px;
+        font-size: 1.5em;
+        color: yellow;
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.75em;
+    }
+}
+
+/*************** 1024px ***************/
+@media screen and (min-width: 1024px) {
+    li a {
+        padding: 7px 20px;
+        font-size: 1.5em;
+        color: rgb(0, 102, 255);
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.75em;
+    }
+}
+
+/************** 1440px ***************/
+@media screen and (min-width: 1440px) {
+    li a {
+        padding: 7px 20px;
+        font-size: 1.5em;
+        color: red;
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.75em;
+    }
+}
+
+/************** 2560px ***************/
+@media screen and (min-width: 2560px) {
+    li a {
+        padding: 7px 20px;
+        font-size: 1.5em;
+        color: rgb(91, 1, 143);
+    }
+
+    .gracey-wallpaper {
+        font-size: 1.75em;
+    }
+}
+
+
