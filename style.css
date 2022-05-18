@@ -16,8 +16,13 @@ body {
     flex-direction: column;
 }
 
+/***********************************************/
+/************ navbar ***************************/
+/***********************************************/
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 ul {
@@ -39,22 +44,15 @@ li a {
 a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-.gracey-wallpaper {
+ /*********** middle content ***********/
+.header {
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -142.24px 0 0 -142.24px;
-    padding: 0 10px 10px 10px;
 }
 
-.gracey {
-    color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
+/***********************************************/
+/************ footer ***************************/
+/***********************************************/
 
-/*********** footer ***********/
 .footer {
     position: absolute;
     bottom: 0;
@@ -73,117 +71,167 @@ a:hover {
     display: inline;
 }
 
-/************ media queries ************/
+.copy {
+    padding-bottom: 10px;
+}
 
-/*************** 280px ***************/
+/***********************************************/
+/************ media queries ********************/
+/***********************************************/
+
+/* 280px 280px 280px 280px 280px 280px */
+/***************************************/
 @media screen and (min-width: 280px) {
+    /* navbar */
     li a {
         padding: 7px 5px;
         font-size: .7em;
-        color: rgb(255, 0, 255);
+        color: rgb(255, 255, 255);
     }
-
+    /* header */
     .gracey-wallpaper {
-        font-size: 1.4em;
-        margin: -143.00px 0 0 -143.00px;
+        color: rgb(255, 255, 255);
+        font-size: 2em;
     }
 
+    /* footer */
     .fa.fa-facebook-square,
     .fa.fa-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
+
+    .copy {
+        padding-bottom: 3px;
+    }
 }
 
-/*************** 320px ***************/
+/* 320px 320px 320px 320px 320px 320px */
+/***************************************/
 @media screen and (min-width: 320px) {
+    /* navbar */
     li a {
-        padding: 7px 5px;
-        font-size: 1em;
+        padding: 7px 4px;
+        font-size: .75em;
         color: rgb(0, 255, 200);
     }
-
+    /* header */
     .gracey-wallpaper {
-        font-size: 1.25em;
+        font-size: 1.50em;
+        margin: -160.00px 0 0 -165.00px;
+        padding: 0 20px 10px 20px;
+    }
+    /* footer */
+    .copy {
+        padding-bottom: 5px;
     }
 }
 
-/*************** 375px ***************/
+/* 375px 375px 375px 375px 375px 375px */
+/***************************************/
 @media screen and (min-width: 375px) {
+    /* navbar */
     li a {
         padding: 7px 5px;
         font-size: 1em;
         color: rgb(255, 136, 0);
     }
-
+    /* header */
     .gracey-wallpaper {
-        font-size: 1.25em;
+        font-size: 1.75em;
+        margin: -188.00px 0 0 -188.00px;
+        padding: 0 25px 10px 25px;
+    }
+    /* footer */
+    .copy {
+        padding-bottom: 5px;
     }
 }
 
-/*************** 425px ***************/
+/* 425px 425px 425px 425px 425px 425px */
+/***************************************/
 @media screen and (min-width: 425px) {
+    /* navbar */
     li a {
-        padding: 7px 15px;
-        font-size: 1.25em;
-        color: rgb(0, 97, 0);
+        padding: 7px 5px;
+        font-size: 1.10em;
+        color: rgb(0, 255, 0);
     }
-
+    /* header */
     .gracey-wallpaper {
-        font-size: 1.50em;
+        font-size: 1.5em;
+        margin: -218.00px 0 0 -218.00px;
+        padding: 0 70px 10px 0px;
+    }
+    /* footer */
+    .copy {
+        padding-bottom: 15px;
     }
 }
 
-/*************** 768px ***************/
+/* 768px 768px 768px 768px 768px 768px */
+/***************************************/
 @media screen and (min-width: 768px) {
+    /* navbar */
     li a {
         padding: 7px 20px;
         font-size: 1.5em;
         color: yellow;
+        width: 110%;
     }
-
+    /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
+    /* footer */
 }
 
-/*************** 1024px ***************/
+/* 1024px 1024px 1024px 1024px 1024px */
+/**************************************/
 @media screen and (min-width: 1024px) {
+    /* navbar */
     li a {
         padding: 7px 20px;
         font-size: 1.5em;
         color: rgb(0, 102, 255);
     }
-
+    /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
+    /* footer */
 }
 
-/************** 1440px ***************/
+/* 1440px 1440px 1440px 1440px 1440px */
+/**************************************/
 @media screen and (min-width: 1440px) {
+    /* navbar */
     li a {
         padding: 7px 20px;
         font-size: 1.5em;
         color: red;
     }
-
+    /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
+    /* footer */
 }
 
-/************** 2560px ***************/
+/* 2560px 2560px 2560px 2560px 2560px */
+/**************************************/
 @media screen and (min-width: 2560px) {
+    /* navbar */
     li a {
         padding: 7px 20px;
         font-size: 1.5em;
         color: rgb(91, 1, 143);
     }
-
+    /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
+    /* footer */
 }
 
 
