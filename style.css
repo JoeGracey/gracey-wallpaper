@@ -20,7 +20,7 @@ body {
 /************ navbar ***************************/
 /***********************************************/
 
-.navbar {
+#navbar {
     background-color: rgba(0, 0, 0, 0.45);
     width: 100%;
 }
@@ -60,13 +60,14 @@ hr.style {
 /************ header ***************************/
 /***********************************************/
 
-.header {
+#header {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .gracey-wallpaper {
     padding-bottom: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
 }
 
 .slogan {
@@ -78,7 +79,7 @@ hr.style {
 /************ footer ***************************/
 /***********************************************/
 
-.footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -116,22 +117,21 @@ hr.style {
     li a {
         padding: 7px 5px;
         font-size: .7em;
-        color: rgb(255, 255, 255);
         font-weight: bold;
+        
     }
+
     /* header */
     .gracey-wallpaper {
-        color: rgb(255, 255, 255);
         font-size: 2em;
     }
 
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-
     .copy {
         padding-bottom: 5px;
     }
@@ -145,21 +145,20 @@ hr.style {
     li a {
         padding: 7px 4px;
         font-size: .75em;
-        color: rgb(255, 255, 255);
         font-weight: bold;
     }
+
     /* header */
     .gracey-wallpaper {
-        color: rgb(255, 255, 255);
         font-size: 2.15em;
     }
+
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-
     .copy {
         padding-bottom: 5px;
     }
@@ -173,21 +172,20 @@ hr.style {
     li a {
         padding: 7px 5px;
         font-size: .9em;
-        color: rgb(255, 255, 255);
         font-weight: bold;
     }
+
     /* header */
     .gracey-wallpaper {
-        color: rgb(255, 255, 255);
         font-size: 2.25em;
     }
+
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-
     .copy {
         padding-bottom: 5px;
     }
@@ -201,20 +199,19 @@ hr.style {
     li a {
         padding: 7px 5px;
         font-size: 1em;
-        color: rgb(255, 255, 255);
     }
+
     /* header */
     .gracey-wallpaper {
-        color: rgb(255, 255, 255);
         font-size: 2.5em;
     }
+
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-    
     .copy {
         padding-bottom: 5px;
     }
@@ -228,21 +225,20 @@ hr.style {
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
-        color: rgb(255, 255, 255);
         width: 110%;
     }
+
     /* header */
     .gracey-wallpaper {
-        color: rgb(255, 255, 255);
         font-size: 3em;
     }
+
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-    
     .copy {
         padding-bottom: 5px;
     }
@@ -255,20 +251,21 @@ hr.style {
     /* navbar */
     li a {
         padding: 7px 20px;
-        font-size: .5em;
-        color: rgb(255, 255, 255);
+        font-size: 1.25em;
+        width: 110%;
     }
+
     /* header */
     .gracey-wallpaper {
-        font-size: 1.75em;
+        font-size: 3em;
     }
+
     /* footer */
     .logo-facebook,
-    .fa.fa-instagram {
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-    
     .copy {
         padding-bottom: 5px;
     }
@@ -281,20 +278,21 @@ hr.style {
     /* navbar */
     li a {
         padding: 7px 20px;
-        font-size: 1.5em;
-        color: rgb(255, 255, 255);
+        font-size: 1.25em;
+        width: 110%;
     }
+
     /* header */
     .gracey-wallpaper {
-        font-size: 1.75em;
+        font-size: 3em;
     }
+
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-    
     .copy {
         padding-bottom: 5px;
     }
@@ -307,20 +305,21 @@ hr.style {
     /* navbar */
     li a {
         padding: 7px 20px;
-        font-size: 1.5em;
-        color: rgb(255, 255, 255);
+        font-size: 1.25em;
+        width: 110%;
     }
+
     /* header */
     .gracey-wallpaper {
-        font-size: 1.75em;
+        font-size: 3em;
     }
+
     /* footer */
-    .fa.fa-facebook-square,
-    .fa.fa-instagram {
+    .logo-facebook,
+    .logo-instagram {
         font-size: 1.5em;
         margin-top: 5px;
     }
-    
     .copy {
         padding-bottom: 5px;
     }
