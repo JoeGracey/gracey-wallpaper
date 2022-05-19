@@ -4,7 +4,7 @@
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.75);
     width: 100%;
 }
 
@@ -39,10 +39,11 @@ li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 14px 10px;
+    width: 110%;
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 hr {
@@ -52,8 +53,8 @@ hr {
 hr.style {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /***********************************************/
@@ -61,12 +62,12 @@ hr.style {
 /***********************************************/
 
 #header {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .gracey-wallpaper {
     padding-bottom: 10px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Homemade Apple', cursive;
     color: white;
 }
 
@@ -83,12 +84,18 @@ hr.style {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, .75);
 }
 
 .facebook,
 .instagram {
     display: inline;
+}
+
+.logo-facebook,
+.logo-instagram {
+    margin-top: 7px;
+    font-size: 1.5em;
 }
 
 .facebook {
@@ -102,7 +109,7 @@ hr.style {
 }
 
 .copy {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 /***********************************************/
@@ -123,17 +130,10 @@ hr.style {
 
     /* header */
     .gracey-wallpaper {
-        font-size: 2em;
-    }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
         font-size: 1.5em;
-        margin-top: 5px;
     }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: .70em;
     }
 }
 
@@ -150,17 +150,10 @@ hr.style {
 
     /* header */
     .gracey-wallpaper {
-        font-size: 2.15em;
+        font-size: 1.75em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: .75em;
     }
 }
 
@@ -177,17 +170,10 @@ hr.style {
 
     /* header */
     .gracey-wallpaper {
-        font-size: 2.25em;
+        font-size: 2em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: .80em;
     }
 }
 
@@ -203,17 +189,10 @@ hr.style {
 
     /* header */
     .gracey-wallpaper {
-        font-size: 2.5em;
+        font-size: 2.30em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: .85em;
     }
 }
 
@@ -225,22 +204,15 @@ hr.style {
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
-        width: 110%;
     }
 
     /* header */
     .gracey-wallpaper {
         font-size: 3em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: .9em;
+        font-weight: bold;
     }
 }
 
@@ -252,22 +224,15 @@ hr.style {
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
-        width: 110%;
     }
 
     /* header */
     .gracey-wallpaper {
         font-size: 3em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: .95em;
+        font-weight: bold;
     }
 }
 
@@ -279,22 +244,15 @@ hr.style {
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
-        width: 110%;
     }
 
     /* header */
     .gracey-wallpaper {
-        font-size: 3em;
+        font-size: 3.25em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: 1em;
+        font-weight: bold;
     }
 }
 
@@ -306,22 +264,15 @@ hr.style {
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
-        width: 110%;
     }
 
     /* header */
     .gracey-wallpaper {
-        font-size: 3em;
+        font-size: 3.5em;
     }
-
-    /* footer */
-    .logo-facebook,
-    .logo-instagram {
-        font-size: 1.5em;
-        margin-top: 5px;
-    }
-    .copy {
-        padding-bottom: 5px;
+    .slogan {
+        font-size: 1em;
+        font-weight: bold;
     }
 }
 
