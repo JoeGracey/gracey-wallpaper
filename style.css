@@ -4,7 +4,7 @@
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.45);
     width: 100%;
 }
 
@@ -42,11 +42,36 @@ li a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.85);
 }
- /*********** middle content ***********/
+
+hr {
+    margin-bottom: 5px;
+}
+
+hr.style {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/***********************************************/
+/************ header ***************************/
+/***********************************************/
+
 .header {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gracey-wallpaper {
+    padding-bottom: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.slogan {
+    color: white;
+    padding-bottom: 10px;
 }
 
 /***********************************************/
@@ -57,12 +82,16 @@ a:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .85);
 }
 
 .facebook,
 .instagram {
     display: inline;
+}
+
+.facebook {
+    margin-right: 20px;
 }
 
 #copyright {
@@ -79,6 +108,7 @@ a:hover {
 /************ media queries ********************/
 /***********************************************/
 
+/***************************************/
 /* 280px 280px 280px 280px 280px 280px */
 /***************************************/
 @media screen and (min-width: 280px) {
@@ -87,6 +117,7 @@ a:hover {
         padding: 7px 5px;
         font-size: .7em;
         color: rgb(255, 255, 255);
+        font-weight: bold;
     }
     /* header */
     .gracey-wallpaper {
@@ -102,10 +133,11 @@ a:hover {
     }
 
     .copy {
-        padding-bottom: 3px;
+        padding-bottom: 5px;
     }
 }
 
+/***************************************/
 /* 320px 320px 320px 320px 320px 320px */
 /***************************************/
 @media screen and (min-width: 320px) {
@@ -113,95 +145,136 @@ a:hover {
     li a {
         padding: 7px 4px;
         font-size: .75em;
-        color: rgb(0, 255, 200);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
     }
     /* header */
     .gracey-wallpaper {
-        font-size: 1.50em;
-        margin: -160.00px 0 0 -165.00px;
-        padding: 0 20px 10px 20px;
+        color: rgb(255, 255, 255);
+        font-size: 2.15em;
     }
     /* footer */
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+
     .copy {
         padding-bottom: 5px;
     }
 }
 
+/***************************************/
 /* 375px 375px 375px 375px 375px 375px */
 /***************************************/
 @media screen and (min-width: 375px) {
     /* navbar */
     li a {
         padding: 7px 5px;
-        font-size: 1em;
-        color: rgb(255, 136, 0);
+        font-size: .9em;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
     }
     /* header */
     .gracey-wallpaper {
-        font-size: 1.75em;
-        margin: -188.00px 0 0 -188.00px;
-        padding: 0 25px 10px 25px;
+        color: rgb(255, 255, 255);
+        font-size: 2.25em;
     }
     /* footer */
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+
     .copy {
         padding-bottom: 5px;
     }
 }
 
+/***************************************/
 /* 425px 425px 425px 425px 425px 425px */
 /***************************************/
 @media screen and (min-width: 425px) {
     /* navbar */
     li a {
         padding: 7px 5px;
-        font-size: 1.10em;
-        color: rgb(0, 255, 0);
+        font-size: 1em;
+        color: rgb(255, 255, 255);
     }
     /* header */
     .gracey-wallpaper {
-        font-size: 1.5em;
-        margin: -218.00px 0 0 -218.00px;
-        padding: 0 70px 10px 0px;
+        color: rgb(255, 255, 255);
+        font-size: 2.5em;
     }
     /* footer */
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+    
     .copy {
-        padding-bottom: 15px;
+        padding-bottom: 5px;
     }
 }
 
+/***************************************/
 /* 768px 768px 768px 768px 768px 768px */
 /***************************************/
 @media screen and (min-width: 768px) {
     /* navbar */
     li a {
         padding: 7px 20px;
-        font-size: 1.5em;
-        color: yellow;
+        font-size: 1.25em;
+        color: rgb(255, 255, 255);
         width: 110%;
     }
     /* header */
     .gracey-wallpaper {
-        font-size: 1.75em;
+        color: rgb(255, 255, 255);
+        font-size: 3em;
     }
     /* footer */
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+    
+    .copy {
+        padding-bottom: 5px;
+    }
 }
 
+/**************************************/
 /* 1024px 1024px 1024px 1024px 1024px */
 /**************************************/
 @media screen and (min-width: 1024px) {
     /* navbar */
     li a {
         padding: 7px 20px;
-        font-size: 1.5em;
-        color: rgb(0, 102, 255);
+        font-size: .5em;
+        color: rgb(255, 255, 255);
     }
     /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
     /* footer */
+    .logo-facebook,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+    
+    .copy {
+        padding-bottom: 5px;
+    }
 }
 
+/**************************************/
 /* 1440px 1440px 1440px 1440px 1440px */
 /**************************************/
 @media screen and (min-width: 1440px) {
@@ -209,15 +282,25 @@ a:hover {
     li a {
         padding: 7px 20px;
         font-size: 1.5em;
-        color: red;
+        color: rgb(255, 255, 255);
     }
     /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
     /* footer */
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+    
+    .copy {
+        padding-bottom: 5px;
+    }
 }
 
+/**************************************/
 /* 2560px 2560px 2560px 2560px 2560px */
 /**************************************/
 @media screen and (min-width: 2560px) {
@@ -225,13 +308,22 @@ a:hover {
     li a {
         padding: 7px 20px;
         font-size: 1.5em;
-        color: rgb(91, 1, 143);
+        color: rgb(255, 255, 255);
     }
     /* header */
     .gracey-wallpaper {
         font-size: 1.75em;
     }
     /* footer */
+    .fa.fa-facebook-square,
+    .fa.fa-instagram {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+    
+    .copy {
+        padding-bottom: 5px;
+    }
 }
 
 
