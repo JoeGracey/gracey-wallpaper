@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    background-image: url("../images/wallpaper-15.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/***********************************************/
+/************ navbar ***************************/
+/***********************************************/
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 10px;
+    width: 110%;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+hr {
+    margin-bottom: 5px;
+}
+
+hr.style {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/***********************************************/
+/************ header ***************************/
+/***********************************************/
+
+#header {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.gracey-wallpaper {
+    padding-bottom: 10px;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+}
+
+.slogan {
+    color: white;
+    padding-bottom: 10px;
+}
+
+/***********************************************/
+/************ footer ***************************/
+/***********************************************/
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.social-media-links {
+    display: inline;
+}
+
+.logo-facebook,
+.logo-instagram {
+    font-size: 2em;
+}
+
+#copyright {
+    font-size: .75em;
+    color: white;
+    display: inline;
+}
+
+.copy {
+    padding-bottom: 5px;
+}
+
+/***********************************************/
+/************ media queries ********************/
+/***********************************************/
+
+/***************************************/
+/* 280px 280px 280px 280px 280px 280px */
+/***************************************/
+@media screen and (min-width: 280px) {
+    /* navbar */
+    li a {
+        padding: 7px 5px;
+        font-size: .7em;
+        font-weight: bold;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 1.5em;
+    }
+    .slogan {
+        font-size: .70em;
+    }
+}
+
+/***************************************/
+/* 320px 320px 320px 320px 320px 320px */
+/***************************************/
+@media screen and (min-width: 320px) {
+    /* navbar */
+    li a {
+        padding: 7px 4px;
+        font-size: .75em;
+        font-weight: bold;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 1.75em;
+    }
+    .slogan {
+        font-size: .75em;
+    }
+}
+
+/***************************************/
+/* 375px 375px 375px 375px 375px 375px */
+/***************************************/
+@media screen and (min-width: 375px) {
+    /* navbar */
+    li a {
+        padding: 7px 5px;
+        font-size: .9em;
+        font-weight: bold;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 2em;
+    }
+    .slogan {
+        font-size: .80em;
+    }
+}
+
+/***************************************/
+/* 425px 425px 425px 425px 425px 425px */
+/***************************************/
+@media screen and (min-width: 425px) {
+    /* navbar */
+    li a {
+        padding: 7px 5px;
+        font-size: 1em;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 2.30em;
+    }
+    .slogan {
+        font-size: .85em;
+    }
+}
+
+/***************************************/
+/* 768px 768px 768px 768px 768px 768px */
+/***************************************/
+@media screen and (min-width: 768px) {
+    /* navbar */
+    li a {
+        padding: 7px 20px;
+        font-size: 1.25em;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 3em;
+    }
+    .slogan {
+        font-size: .9em;
+        font-weight: bold;
+    }
+}
+
+/**************************************/
+/* 1024px 1024px 1024px 1024px 1024px */
+/**************************************/
+@media screen and (min-width: 1024px) {
+    /* navbar */
+    li a {
+        padding: 7px 20px;
+        font-size: 1.25em;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 3em;
+    }
+    .slogan {
+        font-size: .95em;
+        font-weight: bold;
+    }
+}
+
+/**************************************/
+/* 1440px 1440px 1440px 1440px 1440px */
+/**************************************/
+@media screen and (min-width: 1440px) {
+    /* navbar */
+    li a {
+        padding: 7px 20px;
+        font-size: 1.25em;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 3.25em;
+    }
+    .slogan {
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+/**************************************/
+/* 2560px 2560px 2560px 2560px 2560px */
+/**************************************/
+@media screen and (min-width: 2560px) {
+    /* navbar */
+    li a {
+        padding: 7px 20px;
+        font-size: 1.25em;
+    }
+
+    /* header */
+    .gracey-wallpaper {
+        font-size: 3.5em;
+    }
+    .slogan {
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+
+
