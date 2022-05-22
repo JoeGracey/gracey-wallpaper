@@ -67,7 +67,7 @@ hr.style {
 
 .gracey-wallpaper {
     padding-bottom: 10px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Shrikhand', cursive;
     color: white;
 }
 
@@ -87,19 +87,13 @@ hr.style {
     background-color: rgba(0, 0, 0, .75);
 }
 
-.facebook,
-.instagram {
+.social-media-links {
     display: inline;
 }
 
 .logo-facebook,
 .logo-instagram {
-    margin-top: 7px;
-    font-size: 1.5em;
-}
-
-.facebook {
-    margin-right: 20px;
+    font-size: 2em;
 }
 
 #copyright {
@@ -125,7 +119,6 @@ hr.style {
         padding: 7px 5px;
         font-size: .7em;
         font-weight: bold;
-        
     }
 
     /* header */
