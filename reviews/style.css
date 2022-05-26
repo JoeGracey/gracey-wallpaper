@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     width: 100%;
 }
 
@@ -62,7 +62,7 @@ hr.style {
 /***********************************************/
 
 .review-div {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     justify-content: center;
     align-content: center;
     border-radius: 5px;
@@ -71,7 +71,45 @@ hr.style {
 }
 
 .reviews {
-    border: 1px solid rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .05);
+    border-radius: 5px;
+    padding: .5em;
+}
+
+.name {
+    padding-top: .5em;
+}
+
+.text {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+details {
+    display: inline;
+    bottom: 0;
+}
+
+summary {
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
+
+[open] summary {
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
+
+summary::before {
+    content: "...more";
+    font-size: .75em;
+}
+
+[open] summary::before {
+    content: "...less";
+    font-size: .75em;
 }
 
 p {
