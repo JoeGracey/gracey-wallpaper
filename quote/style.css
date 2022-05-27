@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 100%;
 }
 
@@ -58,22 +58,67 @@ hr.style {
 }
 
 /***********************************************/
-/************ header ***************************/
+/************ quote ****************************/
 /***********************************************/
-
-#header {
-    background-color: rgba(0, 0, 0, 0.75);
+.quote-div {
+    background-color: rgba(0, 0, 0, .95);
+    color: white;
+    margin: .5em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
-.gracey-wallpaper {
-    padding-bottom: 10px;
-    font-family: 'Shrikhand', cursive;
-    color: white;
+.top-paragraphs {
+    line-height: 1.25em;
+    font-size: .75em;
+    margin: 1em 1em 0 1em;
 }
 
-.slogan {
-    color: white;
-    padding-bottom: 10px;
+p {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.paragraph-2 {
+    padding-top: 1em;
+}
+
+.form-div {
+    margin: 1em;
+}
+
+.wall-1 {
+    margin-bottom: .5em;
+}
+
+.wall-2,
+.wall-3,
+.wall-4,
+.room-height,
+.doors-windows {
+    margin: .5em 0 .5em 0;
+}
+
+button {
+    margin: 2em 0 1em 0;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+input {
+    background-color: rgb(185, 185, 185);
+    margin: .25em 0 .25em 0;
+    font-family: 'Lora', serif;
+}
+
+label {
+    font-size: .75em;
+}
+
+::placeholder {
+    color: rgb(119, 118, 118);
 }
 
 /***********************************************/
@@ -84,7 +129,7 @@ hr.style {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .95);
 }
 
 .social-media-links {
@@ -121,12 +166,14 @@ hr.style {
         font-weight: bold;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 1.5em;
+    /* quote */
+    input {
+        padding: 5px;
     }
-    .slogan {
-        font-size: .70em;
+
+    button {
+        padding: 5px;
+        width: 75%;
     }
 }
 
