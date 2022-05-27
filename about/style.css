@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 100%;
 }
 
@@ -46,10 +46,6 @@ a:hover {
     background-color: rgba(0, 0, 0, 1);
 }
 
-hr {
-    margin-bottom: 5px;
-}
-
 hr.style {
     border: 0;
     height: 0;
@@ -62,7 +58,7 @@ hr.style {
 /***********************************************/
 
 .about-div {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.95);
     justify-content: center;
     align-content: center;
     border-radius: 25px;
@@ -82,7 +78,7 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .95);
 }
 
 .social-media-links {
@@ -121,8 +117,8 @@ p {
 
     /* about */
     .about-div {
-        margin: 1em 1em 1em 1em;
-        padding: 1em 1em 1em 1em;
+        margin: .6em;
+        padding: .6em;
         font-size: .85em;
         line-height: 1.3;
     }
@@ -142,8 +138,8 @@ p {
 
     /* about */
     .about-div {
-        margin: 1em 1em 1em 1em;
-        padding: 1em 1em 1em 1em;
+        margin: .5em;
+        padding: .5em;
         font-size: .85em;
         line-height: 1.5;
     }
@@ -162,8 +158,8 @@ p {
 
     /* about */
     .about-div {
-        margin: 1em 1em 1em 1em;
-        padding: 1em 1em 1em 1em;
+        margin: .5em;
+        padding: .5em;
         font-size: 1em;
         line-height: 1.3;
     }
@@ -181,8 +177,8 @@ p {
 
     /* about */
     .about-div {
-        margin: 1em 1em 1em 1em;
-        padding: 1em 1em 1em 1em;
+        margin: .5em;
+        padding: .5em;
         font-size: 1em;
         line-height: 1.4;
     }
@@ -200,7 +196,7 @@ p {
 
     /* about */
     .about-div {
-        margin: 1em 10em 1em 10em;
+        margin: 1em 9em 1em 9em;
         padding: 1em 1em 1em 1em;
         font-size: 1em;
         line-height: 1.4;

@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 100%;
 }
 
@@ -62,7 +62,7 @@ hr.style {
 /***********************************************/
 
 #header {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.95);
 }
 
 .gracey-wallpaper {
@@ -84,7 +84,7 @@ hr.style {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .95);
 }
 
 .social-media-links {
