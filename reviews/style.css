@@ -43,7 +43,8 @@ li a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: goldenrod;
+    color: black;
 }
 
 hr {
@@ -65,7 +66,7 @@ hr.style {
     background-color: rgba(0, 0, 0, 0.95);
     justify-content: center;
     align-content: center;
-    border-radius: 5px;
+    border-radius: 25px;
     border: 2px solid rgba(255, 255, 255, .2);
     color: white;
 }
@@ -86,16 +87,27 @@ details {
     bottom: -1em;
 }
 
+/* triangle 'more' button  */
 summary {
     position: absolute;
     bottom: -1em;
     left: 0;
 }
 
+summary:hover {
+    cursor: pointer;
+    color: goldenrod;
+}
+
 [open] summary {
     position: absolute;
     bottom: -1em;
     left: 0;
+}
+
+[open] summary:hover {
+    cursor: pointer;
+    color: goldenrod;
 }
 
 summary::before {
@@ -289,9 +301,9 @@ p {
 }
 
 /**************************************/
-/* 2560px 2560px 2560px 2560px 2560px */
+/* 1920px 1920px 1920px 1920px 1920px */
 /**************************************/
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
     /* navbar */
     li a {
         padding: 7px 20px;

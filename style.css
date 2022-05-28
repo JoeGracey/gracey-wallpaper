@@ -43,7 +43,8 @@ li a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: goldenrod;
+    color: black;
 }
 
 hr {
@@ -250,9 +251,9 @@ hr.style {
 }
 
 /**************************************/
-/* 2560px 2560px 2560px 2560px 2560px */
+/* 1920px 1920px 1920px 1920px 1920px */
 /**************************************/
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
     /* navbar */
     li a {
         padding: 7px 20px;

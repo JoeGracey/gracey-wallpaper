@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("../images/wallpaper-15.jpg");
+    background-color: black;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -21,7 +21,7 @@ body {
 /***********************************************/
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 100%;
 }
 
@@ -43,7 +43,8 @@ li a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: goldenrod;
+    color: black;
 }
 
 hr {
@@ -58,22 +59,17 @@ hr.style {
 }
 
 /***********************************************/
-/************ header ***************************/
+/************ gallery **************************/
 /***********************************************/
-
-#header {
-    background-color: rgba(0, 0, 0, 0.75);
+#gallery {
+    line-height: 0;
+    column-gap: 5px;
 }
 
-.gracey-wallpaper {
-    padding-bottom: 10px;
-    font-family: 'Shrikhand', cursive;
-    color: white;
-}
-
-.slogan {
-    color: white;
-    padding-bottom: 10px;
+#gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
 }
 
 /***********************************************/
@@ -84,7 +80,7 @@ hr.style {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .95);
 }
 
 .social-media-links {
@@ -121,12 +117,9 @@ hr.style {
         font-weight: bold;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 1.5em;
-    }
-    .slogan {
-        font-size: .70em;
+    /* gallery */
+    #gallery {
+        column-count: 1;
     }
 }
 
@@ -141,12 +134,9 @@ hr.style {
         font-weight: bold;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 1.75em;
-    }
-    .slogan {
-        font-size: .75em;
+    /* gallery */
+    #gallery {
+        column-count: 1;
     }
 }
 
@@ -161,12 +151,9 @@ hr.style {
         font-weight: bold;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 2em;
-    }
-    .slogan {
-        font-size: .80em;
+    /* gallery */
+    #gallery {
+        column-count: 1;
     }
 }
 
@@ -180,12 +167,9 @@ hr.style {
         font-size: 1em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 2.30em;
-    }
-    .slogan {
-        font-size: .85em;
+    /* gallery */
+    #gallery {
+        column-count: 1;
     }
 }
 
@@ -199,13 +183,9 @@ hr.style {
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3em;
-    }
-    .slogan {
-        font-size: .9em;
-        font-weight: bold;
+    /* gallery */
+    #gallery {
+        column-count: 2;
     }
 }
 
@@ -219,13 +199,9 @@ hr.style {
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3em;
-    }
-    .slogan {
-        font-size: .95em;
-        font-weight: bold;
+    /* gallery */
+    #gallery {
+        column-count: 3;
     }
 }
 
@@ -239,33 +215,25 @@ hr.style {
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3.25em;
-    }
-    .slogan {
-        font-size: 1em;
-        font-weight: bold;
+    /* gallery */
+    #gallery {
+        column-count: 4;
     }
 }
 
 /**************************************/
-/* 2560px 2560px 2560px 2560px 2560px */
+/* 1920px 1920px 1920px 1920px 1920px */
 /**************************************/
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
     /* navbar */
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3.5em;
-    }
-    .slogan {
-        font-size: 1em;
-        font-weight: bold;
+    /* gallery */
+    #gallery {
+        column-count: 5;
     }
 }
 

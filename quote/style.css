@@ -43,11 +43,12 @@ li a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: goldenrod;
+    color: black;
 }
 
 hr {
-    margin-bottom: 5px;
+    margin: 0 1em 5px 1em;
 }
 
 hr.style {
@@ -66,7 +67,7 @@ hr.style {
     margin: .5em;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 25px;
     border: 2px solid rgba(255, 255, 255, .2);
 }
 
@@ -106,12 +107,22 @@ button {
     background-color: goldenrod;
     font-weight: bolder;
     font-size: large;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+}
+
+button:hover {
+    background-color: black;
+    color: goldenrod;
+    cursor: pointer;
 }
 
 input {
     background-color: rgb(185, 185, 185);
     margin: .25em 0 .25em 0;
     font-family: 'Lora', serif;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 185);
 }
 
 label {
@@ -213,6 +224,7 @@ label {
         font-size: 1em;
     }
 
+    /* quote */
     label {
         font-size: .95em;
     }
@@ -266,7 +278,7 @@ label {
     }
 
     input {
-        width: 30%;
+        width: 33%;
     }
     
     label {
@@ -350,7 +362,7 @@ label {
 
     button {
         padding: 5px;
-        width: 50%;
+        width: 53%;
     }
 }
 
