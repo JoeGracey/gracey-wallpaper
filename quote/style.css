@@ -67,6 +67,7 @@ hr.style {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, .2);
 }
 
 .top-paragraphs {
@@ -102,7 +103,7 @@ p {
 
 button {
     margin: 2em 0 1em 0;
-    background-color: white;
+    background-color: goldenrod;
     font-weight: bolder;
     font-size: large;
 }
@@ -169,6 +170,7 @@ label {
     /* quote */
     input {
         padding: 5px;
+        width: 45%;
     }
 
     button {
@@ -187,14 +189,6 @@ label {
         font-size: .75em;
         font-weight: bold;
     }
-
-    /* header */
-    .gracey-wallpaper {
-        font-size: 1.75em;
-    }
-    .slogan {
-        font-size: .75em;
-    }
 }
 
 /***************************************/
@@ -206,14 +200,6 @@ label {
         padding: 7px 5px;
         font-size: .9em;
         font-weight: bold;
-    }
-
-    /* header */
-    .gracey-wallpaper {
-        font-size: 2em;
-    }
-    .slogan {
-        font-size: .80em;
     }
 }
 
@@ -227,12 +213,13 @@ label {
         font-size: 1em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 2.30em;
+    label {
+        font-size: .95em;
     }
-    .slogan {
-        font-size: .85em;
+
+    p {
+        font-size: 1.15em;
+        line-height: 1.2;
     }
 }
 
@@ -246,13 +233,19 @@ label {
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3em;
+    /* quote */
+    .quote-div {
+        margin-left: 10em;
+        margin-right: 10em;
     }
-    .slogan {
-        font-size: .9em;
-        font-weight: bold;
+
+    label {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1.5em;
+        line-height: 1.25;
     }
 }
 
@@ -266,13 +259,28 @@ label {
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3em;
+    /* quote */
+    .quote-div {
+        margin-left: 15em;
+        margin-right: 15em;
     }
-    .slogan {
-        font-size: .95em;
-        font-weight: bold;
+
+    input {
+        width: 30%;
+    }
+    
+    label {
+        font-size: 1.25em;
+    }
+    
+    p {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    button {
+        padding: 5px;
+        width: 50%;
     }
 }
 
@@ -286,33 +294,63 @@ label {
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3.25em;
+    /* quote */
+    .quote-div {
+        margin-left: 24em;
+        margin-right: 24em;
     }
-    .slogan {
-        font-size: 1em;
-        font-weight: bold;
+
+    input {
+        width: 30%;
+    }
+        
+    label {
+        font-size: 1.25em;
+    }
+        
+    p {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    button {
+        padding: 5px;
+        width: 50%;
     }
 }
 
 /**************************************/
-/* 2560px 2560px 2560px 2560px 2560px */
+/* 1920px 1920px 1920px 1920px 1920px */
 /**************************************/
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
     /* navbar */
     li a {
         padding: 7px 20px;
         font-size: 1.25em;
     }
 
-    /* header */
-    .gracey-wallpaper {
-        font-size: 3.5em;
+    /* quote */
+    .quote-div {
+        margin-left: 59em;
+        margin-right: 59em;
     }
-    .slogan {
-        font-size: 1em;
-        font-weight: bold;
+
+    input {
+        width: 55%;
+    }
+            
+        label {
+        font-size: 1.25em;
+    }
+            
+    p {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    button {
+        padding: 5px;
+        width: 50%;
     }
 }
 
